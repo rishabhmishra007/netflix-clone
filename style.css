@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url(1st.jpg);
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 60vh;
+    position: relative;
+}
+
+.box {
+    height: 60vh;
+    width: 100%;
+    opacity: 0.65;
+    position: absolute;
+    top: 0;
+    background-color: #000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: red; */
+    max-width: 65vw;
+    height: 62px;
+    margin: auto;
+}
+
+nav img {
+    width: 8.5vw;
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+    /* background-color: aliceblue; */
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.hero {
+    height: calc(100% - 122px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    position: relative;
+    font-family: 'Martel Sans', sans-serif;
+    gap: 23px;
+    padding: 30px;
+}
+
+.hero>:first-child {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;
+}
+
+.hero>:nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero>:nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.sepration {
+    height: 7px;
+    background-color: rgb(46, 44, 44);
+    position: relative;
+    z-index: 20;
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: 400;
+    color: #fff;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid #ffffff5f;
+    border-radius: 4px;
+}
+
+.btn-red-sn {
+    padding: 3px 8px;
+    font-weight: 400;
+    color: #fff;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 4px;
+}
+
+.btn-red {
+    padding: 9px 24px;
+    font-weight: 400;
+    color: #fff;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    cursor: pointer;
+}
+
+.main input {
+    padding: 9px 9px 7px 7px;
+    background-color: rgba(23, 23, 23, 0.7);
+    color: #fff;
+    border: 0.1px solid rgba(85, 77, 77, 0.7);
+    border-radius: 4px;
+    font-size: 12px;
+
+}
+
+.first {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    max-width: 70vw;
+    margin: auto;
+}
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+}
+
+section.first>div :nth-child(1) {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+section.first>div :nth-child(2) {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.secimg {
+    position: relative;
+
+}
+
+.secimg img {
+    width: 30vw;
+    position: relative;
+    z-index: 30;
+}
+
+.secimg video {
+    position: absolute;
+    top: 51px;
+    right: 0;
+    width: 26vw;
+}
+
+.sec2img img{
+    width: 30vw;
+    position: relative;
+}
+.sec3img{
+    position: relative;
+}
+.sec3img img{
+    width: 30vw;
+    position: relative;
+    z-index: 30;
+}
+.sec3img video{
+    position: absolute;
+    top: 51px;
+    left: 90px;
+    width: 18vw;
+}
+
+.sec4img img{
+    width: 30vw;
+    position: relative;
+}
+.faq{
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    padding: 34px;
+}
+.faq h2{
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+}
+.box2{
+    transition: all 0.5s ease-out;
+    display: flex;
+    font-size: 16px;
+    font-weight: 400;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    max-width: 60vw;
+    margin: 8px auto;
+    padding: 15px;
+    cursor: pointer;
+}
+.box2 svg{
+    filter: invert(2);
+}
+.box2:hover{
+    background-color: rgb(113, 109, 109)
+}
+.yo{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 20px ;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    color: #fff;
+    max-width: 60vw;
+    margin: auto;
+}
+
+.footer-items{
+    display: flex;
+    flex-direction: column;
+}
